@@ -1,0 +1,51 @@
+.footer{
+    min-width: 100%;
+    background-color: #000;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    text-align: center;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 40px;
+
+}
+
+.footer-icon h3{
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.icon-detail{
+    display: flex;
+    gap: 20px;
+}
+
+.medical{
+    background-color: crimson;
+    font-size: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+
+
+
+.icon-detail-one{
+    border-bottom: 1px solid #fff;
+    padding: 10px 30px;
+}
+
+
+#dark .footer{
+
+    background-color: #5f264a;
+    color: #000;
+}

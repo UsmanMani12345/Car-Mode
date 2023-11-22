@@ -1,0 +1,20 @@
+*{
+text-decoration: none;
+scroll-behavior: smooth;
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body{
+  font-family: 'Fjalla One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+
+#dark{
+  background-color: #5f264a;
+  color: #fff;
+}

@@ -1,0 +1,147 @@
+.services{
+    min-width: 100%;
+    min-height: 100vh;
+    padding: 30px 40px;
+}
+
+.services-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.services-heading h1{
+    font-size: 32px;
+}
+.services-heading p{
+    font-size: 20px;
+}
+.services-anchor{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    
+}
+
+.services-anchor a{
+    color: #000;
+    font-size: 18px;
+}
+.civic{
+    background-color: #000;
+    padding: 8px 20px;
+    color: aliceblue !important;
+    border-radius: 6px;
+}
+.services-anchor a:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: .7s;
+    padding: 8px 20px;
+    border-radius: 6px;
+}
+
+.car-services{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.car-img img{
+    width: 800px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.services-content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+
+.services-heading h2{
+    color: red;
+    font-size: 32px;
+}
+
+.services-heading span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.services-button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 100px;
+}
+.services-button h4{
+    color:gray;
+}
+
+.explore{
+    display: flex;
+    gap: 10px;
+    padding: 15px 30px;
+    background-color: crimson;
+    border-radius: 18px;
+}
+
+.explore a{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.explore .icon{
+    color: aliceblue;
+    margin-top: 3px;
+}
+
+.explore:hover{
+    transition: .3s;
+    background-color: crimson; 
+    border-radius: 0px;
+}
+
+
+
+
+@media (max-width:768px) {
+    .car-img img{
+            width: 350px;
+            height: 350px;
+    }
+    .services-heading h2{
+        font-size: 20px;
+    }
+    .services-heading span{
+        font-size: 12px;
+    }
+
+    .services-button h4{
+        font-size: 10px;
+    }
+
+    .explore{
+        padding: 8px 20px;
+    }
+    .explore a{
+        font-size: 12px;
+    }
+
+    .explore .icon{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+}

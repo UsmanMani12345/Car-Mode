@@ -1,0 +1,165 @@
+.about{
+min-height: 100vh;
+min-width: 100%;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+background-color: #000;
+}
+
+.about-heading{
+    text-align: center;
+    padding: 15px 0px;
+    color: aliceblue;
+}
+.about-btn{
+    text-align: center;
+    padding: 15px 0px;
+    color: #fff;
+}
+
+.about-card{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 20px;
+    padding: 20px 50px;
+}
+
+.card-about{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: aliceblue;
+}
+
+.card-heading{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card-heading h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card-heading p{
+    padding: 5px 15px;
+    background-color: #000;
+    color: gray;
+    border-radius: 6px;
+}
+.content-heading span{
+    color: #221a1a;
+    font-weight: 400;
+}
+.about-icon{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.about-icon-content{
+    display: flex;
+    gap: 10px;
+}
+.about-para p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.about-icon-content .icon{
+    font-size: 20px;
+    color: yellowgreen;
+}
+
+.about-icon-content p{
+    font-size: 20px;
+}
+.about-anchor{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-anchor a{
+background-color: yellowgreen;
+padding: 10px 40px;
+border-radius: 15px;
+color: aliceblue;
+font-size: 20px;
+}
+
+.about-anchor a:hover{
+    border: 1px solid #000;
+    background: none;
+    transition: 1s;
+    color: #000;
+    border-radius: 0px;
+}
+
+.about-anchor-one{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-anchor-one a:hover{
+    background-color: yellowgreen;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    }
+    
+    .about-anchor-one a{
+        padding: 10px 40px;
+        border: 1px solid #000;
+        background: none;
+        transition: 1s;
+        color: #000;
+        border-radius: 0px;
+    }
+
+#dark .about{
+    background-color: #5f264a;
+    color: #fff;
+}
+
+#dark .card-about{
+    background-color: #ca83b0;
+}
+
+#dark .card-heading p{
+    background-color: #5f264a;
+    color: #fff;
+}
+#dark .about-icon-content .icon{
+    color: #5f264a;
+}
+#dark .about-anchor a{
+    background-color: #5f264a;
+}
+
+#dark .about-anchor-one a:hover{
+    background-color: #5f264a;
+}
+    @media (max-width:768px){
+        .about-card{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    
+    @media (max-width:370px){
+        .about-card{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .card-heading h3{
+            font-size: 14px;
+        }
+        .card-heading p{
+            padding:2px 10px ;
+        }
+    }
+    

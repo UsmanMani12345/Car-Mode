@@ -1,0 +1,318 @@
+.header {
+    position: relative; 
+    min-height: 100vh;
+     min-width: 100%;
+     background-image: url(../images/1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(14, 10, 10, 0.979);
+  opacity: 0.6;
+}
+
+.navbar-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px 20px;
+  position: relative;
+ background-color: rgba(41, 40, 40, 0.979);
+ border-radius: 50px;
+
+}
+
+.logo h2{
+color: gray;
+font-size: 42px;
+text-align: center;
+}
+
+
+.navbar-anchor a{
+    color:gray;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-anchor a:hover{
+color:rgba(14, 10, 10, 0.979);
+opacity: 0.6;
+transition: 1s;
+}
+
+
+
+.header-content{
+    position: relative;
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.heading h1{
+    font-size: 42px;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.heading span{
+    text-decoration:underline;
+    color: yellow;
+}
+
+.para-header p{
+    color: aliceblue;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.link{
+    display: flex;
+    gap: 30px;
+}
+
+.header-btn a{
+    padding: 15px 30px;
+    background-color:yellowgreen;
+    color: aliceblue;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+.header-btn-one a{
+    padding: 15px 30px;
+    border: 2px solid yellowgreen;
+    color: aliceblue;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+
+.header-btn-one a:hover{
+    background: yellowgreen;
+    transition: 1s;
+}
+.right-side{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+.right-side img{
+    width: 500px;
+    height:500px;
+}
+
+
+.mode{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background: gray;
+    position: fixed;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.moon{
+font-size: 30px;
+margin-top: 10px;
+color: aliceblue;
+}
+#dark .mode{
+    background-color: #000;
+    color: #fff;
+}
+#dark .navbar-header{
+    background-color: #5f264a;
+    color: #fff;
+}
+@media (max-width:768px) {
+    .header{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-header{
+        padding: 10px 10px;
+    }
+
+    .logo h2{
+        font-size: 30px;
+    }
+
+    .navbar-anchor a{
+        font-size: 16px;
+    }
+
+    .header-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .heading h1{
+        font-size: 25px;
+    }
+
+    .para-header p{
+        font-size: 17px;
+    }
+
+    .header-btn a{
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    .header-btn-one a{
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    .right-side{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-side img{
+        width: 250px;
+        height: 250px;
+        
+    }
+}
+
+
+
+
+
+@media (max-width:594px){
+    .header{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-header{
+        padding: 5px 5px;
+    }
+
+    .logo h2{
+        font-size: 20px;
+    }
+
+    .navbar-anchor a{
+        font-size: 13px;
+    }
+
+    .header-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .heading h1{
+        font-size: 25px;
+    }
+
+    .para-header p{
+        font-size: 17px;
+    }
+
+    .header-btn a{
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    .header-btn-one a{
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    .right-side{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-side img{
+        width: 250px;
+        height: 250px;
+        
+    }
+}
+
+
+
+@media (max-width:452px){
+    .header{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-header{
+        padding: 5px 5px;
+    }
+
+    .logo h2{
+        font-size: 10px;
+    }
+
+    .navbar-anchor a{
+        font-size: 7px;
+    }
+
+    .header-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .heading h1{
+        font-size: 25px;
+    }
+
+    .para-header p{
+        font-size: 17px;
+    }
+
+    .header-btn a{
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    .header-btn-one a{
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    .right-side{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-side img{
+        width: 250px;
+        height: 250px;
+        
+    }
+}

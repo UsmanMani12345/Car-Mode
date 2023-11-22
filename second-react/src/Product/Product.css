@@ -1,0 +1,45 @@
+.product{
+    /* min-height: 100vh; */
+     min-width: 100%;
+     background-image: url('../images/4.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     filter: grayscale(1.1);
+}
+
+
+.product-contact{
+    
+    background:linear-gradient(to right, gray 30%, #000 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.input-field input{
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input-field::placeholder{
+    margin-left: 20px;
+}
+
+.product-contact a{
+    background-color: crimson;
+    padding: 10px 40px;
+    color: aliceblue;
+    border-radius: 7px;
+}

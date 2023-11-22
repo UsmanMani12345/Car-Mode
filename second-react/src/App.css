@@ -1,0 +1,22 @@
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+    }
+    
+    body{
+      font-family: 'Fjalla One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    }
+
+.scroll{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+    .scroll a{
+      background-color: crimson;
+      padding: 10px 20px;
+      color: aliceblue;
+    }
